@@ -136,7 +136,9 @@ h5 {
   color: #a9b2b9;
   font-size: 14px;
   font-weight: 400;
+  text-transform: uppercase;
 }
+
 strong {
   font-weight: 400;
 }
@@ -239,4 +241,11 @@ a:hover {
 }
 a {
   color: #648880;
+  text-decoration: none;
+}
+.teaser a:hover h3 {
+  color: #a9b2b9;
+}
+p a {
+  border-bottom: 1px solid #dfe2e5;
 }
